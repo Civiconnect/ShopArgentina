@@ -1,0 +1,39 @@
+.CardContainer{
+    display: grid;
+    padding-block: 2rem;
+
+    margin-inline: auto;
+    margin: 5%;
+
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Card{
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+
+.Btn{
+    margin-left: 5px;
+    padding: 20px 50px;
+    font-size: 1.25rem;
+    position: relative;
+    background: #75AADB;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.CardWords{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ContactDetails{
+    outline:#75AADB;
+    outline-style: groove;
+}
